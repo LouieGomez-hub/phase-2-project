@@ -25,35 +25,35 @@
     {
       "id": 3,
       "name": "Wonder Woman",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Female",
+      "race": "Amazon",
+      "height": "6'0",
+      "weight": "165 lbs",
+      "firstAppearance": "All Star Comics #8",
+      "primarySkill": "Godlike abilities including Strength and Immortality",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/720-wonder-woman.jpg"
     }, 
     {
       "id": 4,
       "name": "Aquaman",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Atlantean",
+      "height": "6'1",
+      "weight": "325 lbs",
+      "firstAppearance": "More Fun Comics #73",
+      "primarySkill": "Superhuman Strength, Telepathic communication with creatures of the sea",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/38-aquaman.jpg"
     }, 
     {
       "id": 5,
       "name": "The Flash",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Human",
+      "height": "6'0",
+      "weight": "195 lbs",
+      "firstAppearance": "Showcase #4",
+      "primarySkill": "Superhuman Speed",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/265-flash-ii.jpg"
     },
     {
       "id": 6,
