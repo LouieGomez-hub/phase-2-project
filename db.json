@@ -1,0 +1,224 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "gender": "Male",
+      "race": "Human",
+      "height": "6'2",
+      "weight": "210 lbs",
+      "firstAppearance": "Detective Comics #27",
+      "primarySkill": "Genius Intellect, Master Detective",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/70-batman.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "gender": "Male",
+      "race": "Kryptonian",
+      "height": "6'3",
+      "weight": "225 lbs",
+      "firstAppearance": "Action Comics #1",
+      "primarySkill": "Superhuman Strength",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/644-superman.jpg"
+    }, 
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    }, 
+    {
+      "id": 4,
+      "name": "Aquaman",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    }, 
+    {
+      "id": 5,
+      "name": "The Flash",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 6,
+      "name": "Nightwing",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 7,
+      "name": "Shazam",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 8,
+      "name": "Green Lantern",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 9,
+      "name": "Martian Manhunter",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 10,
+      "name": "Green Arrow",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 11,
+      "name": "Iron Man",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 12,
+      "name": "Captain America",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 13,
+      "name": "Thor",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 14,
+      "name": "Hulk",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 15,
+      "name": "Wolverine",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 16,
+      "name": "Spider-Man",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 17,
+      "name": "Black Panther",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 18,
+      "name": "Daredevil",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 19,
+      "name": "Deadpool",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    },
+    {
+      "id": 20,
+      "name": "Hawkeye",
+      "gender": ,
+      "race": ,
+      "height": ,
+      "weight": ,
+      "firstAppearance": ,
+      "primarySkill": ,
+      "image":
+    }
+  ]
+}
