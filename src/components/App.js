@@ -5,4 +5,26 @@ import Home from "./Home";
 import HeroShowcase from "./HeroShowcase";
 import HeroStats from "./HeroStats";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export default App;
