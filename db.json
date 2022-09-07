@@ -107,7 +107,7 @@
       "height": "6'2",
       "weight": "195 lbs",
       "firstAppearance": "More Fun Comics #73",
-      "primarySkill": "Master archer and marksman",
+      "primarySkill": "Master Archer and Marksman",
       "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/298-green-arrow.jpg"
     },
     {
@@ -168,57 +168,57 @@
     {
       "id": 16,
       "name": "Spider-Man",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Human",
+      "height": "5'10",
+      "weight": "165 lbs",
+      "firstAppearance": "Amazing Fantasy #15",
+      "primarySkill": "Spider-related abilities due to Radioactive Spider bite, Wrist-Mounted Web Shooters",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/620-spider-man.jpg"
     },
     {
       "id": 17,
       "name": "Black Panther",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Human",
+      "height": "6'0",
+      "weight": "200 lbs",
+      "firstAppearance": "Fantastic Four Vol. 1 #52",
+      "primarySkill": "Enhanced abilities granted by the Heart-Shaped Herb",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/106-black-panther.jpg"
     },
     {
       "id": 18,
       "name": "Daredevil",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Human",
+      "height": "6'0",
+      "weight": "200 lbs",
+      "firstAppearance": "Daredevil #1",
+      "primarySkill": "Olympic level athlete and gymnast, Heightened Senses due to Radioactive Accident",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/201-daredevil.jpg"
     },
     {
       "id": 19,
       "name": "Deadpool",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Human Mutate",
+      "height": "6'2",
+      "weight": "210 lbs",
+      "firstAppearance": "New Mutants #98",
+      "primarySkill": "Regeneration and Physical Prowess",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/213-deadpool.jpg"
     },
     {
       "id": 20,
       "name": "Hawkeye",
-      "gender": ,
-      "race": ,
-      "height": ,
-      "weight": ,
-      "firstAppearance": ,
-      "primarySkill": ,
-      "image":
+      "gender": "Male",
+      "race": "Human",
+      "height": "6'3",
+      "weight": "230 lbs",
+      "firstAppearance": "Tales of Suspence #57",
+      "primarySkill": "Master Archer and Marksman",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/313-hawkeye.jpg"
     }
   ]
 }
