@@ -1,13 +1,8 @@
 import React from "react";
 
+function HeroShowcase() {
 
-
-
-
-
-
-
-
+}
 
 
 
