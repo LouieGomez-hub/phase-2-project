@@ -10,16 +10,14 @@ function NavBar() {
       >
         Home
       </NavLink>
-      <br></br>
       <NavLink
-        to="/heroshowcase"
+        to="/hero-showcase"
         exact
       >
         Showcase
       </NavLink>
-      <br></br>
       <NavLink
-        to="/herostats"
+        to="/hero-stats"
         exact
       >
         Stats
