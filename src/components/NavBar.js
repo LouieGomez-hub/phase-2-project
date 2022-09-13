@@ -4,6 +4,9 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navbar">
+
+      <img className="super" src="" alt="SuperHero Database"/>
+
       <NavLink
         to="/"
         exact

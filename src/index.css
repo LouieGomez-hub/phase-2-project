@@ -4,8 +4,8 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: center;
-  gap: 10rem;
+  justify-content: left;
+  gap: 12rem;
   background-color: lightslategray;
   font-size: 30px;
   line-height: 65px;
