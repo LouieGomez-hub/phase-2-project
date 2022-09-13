@@ -5,7 +5,7 @@ body {
 .navbar {
   display: flex;
   justify-content: left;
-  gap: 17rem;
+  gap: 14rem;
   background-color: lightslategray;
   font-size: 30px;
   line-height: 65px;
@@ -23,10 +23,11 @@ a {
 img {
   height: 70px;
   width: 80px;
-
 }
 
-.super {
-  font-size: larger;
-  font-family: 'Lucida Sans';
+header {
+  font-size: 25px;
+  line-height: 35px;
+  margin-left: -14%;
+  font-family: cursive;
 }
