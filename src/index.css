@@ -5,7 +5,7 @@ body {
 .navbar {
   display: flex;
   justify-content: left;
-  gap: 12rem;
+  gap: 17rem;
   background-color: lightslategray;
   font-size: 30px;
   line-height: 65px;
@@ -18,4 +18,15 @@ body {
 
 a {
   font-family: fantasy;
+}
+
+img {
+  height: 70px;
+  width: 80px;
+
+}
+
+.super {
+  font-size: larger;
+  font-family: 'Lucida Sans';
 }
