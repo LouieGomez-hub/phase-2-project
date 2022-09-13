@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navbar">
-      <img src="https://img.favpng.com/10/22/6/superhero-png-favpng-9yKc3QvuS0C0akjqeGUDZMS3U_t.jpg"/>
+      <img src="https://img.favpng.com/10/22/6/superhero-png-favpng-9yKc3QvuS0C0akjqeGUDZMS3U_t.jpg" alt=""/>
       <header>Superhero <br></br> Database</header>
 
       <NavLink
