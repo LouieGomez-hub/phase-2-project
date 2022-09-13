@@ -8,4 +8,5 @@ body {
   gap: 10rem;
   background-color: lightslategray;
   font-size: 25px;
+  line-height: 65px;
 }
