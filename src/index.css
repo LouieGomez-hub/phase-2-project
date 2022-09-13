@@ -7,6 +7,15 @@ body {
   justify-content: center;
   gap: 10rem;
   background-color: lightslategray;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 65px;
+}
+
+.active {
+  text-decoration: none;
+  color: saddlebrown;
+}
+
+a {
+  font-family: fantasy;
 }
