@@ -10,12 +10,14 @@ function NavBar() {
       >
         Home
       </NavLink>
+      <br></br>
       <NavLink
         to="/heroshowcase"
         exact
       >
         Showcase
       </NavLink>
+      <br></br>
       <NavLink
         to="/herostats"
         exact
@@ -25,23 +27,5 @@ function NavBar() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default NavBar;
