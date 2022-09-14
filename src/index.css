@@ -20,6 +20,7 @@ a {
   font-family: fantasy;
   font-style: italic;
   text-shadow: 1px 1px 7px black;
+  color: silver
 }
 
 .super {
@@ -28,20 +29,26 @@ a {
 }
 
 header {
-  font-size: 40px;
-  line-height: 35px;
+  font-size: 35px;
+  line-height: 30px;
   margin-left: -12%;
-  font-family: cursive;
-  color: red;
-  text-shadow: 2px 2px black;
+  font-family: fantasy;
+  color: rgba(75, 108, 18, 0.393);
+  text-shadow: 1px 2px 2px black;
 }
 
 .home {
   font-style: italic;
   font-family: Georgia;
   font-size: 25px;
-  color: rgb(86, 154, 197);
+  color: rgb(255, 255, 152);
   font-weight: bold;
+}
+
+p, .Home-component {
+  margin-top: 5%;
+  text-indent: 2.5%;
+  color: rgba(255, 255, 152, 0.759);
 }
 
 button {
