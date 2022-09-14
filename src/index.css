@@ -36,3 +36,9 @@ header {
   color: rgb(255, 33, 33);
   text-shadow: 2px 2px black;
 }
+
+.home {
+  font-style: italic;
+  font-family: Georgia;
+  font-size: 25px;
+}
