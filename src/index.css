@@ -22,7 +22,7 @@ a {
   text-shadow: 1px 1px 7px black;
 }
 
-img {
+.super {
   height: 70px;
   width: 80px;
 }
@@ -41,4 +41,23 @@ header {
   font-style: italic;
   font-family: Georgia;
   font-size: 25px;
+}
+
+button {
+  border: none;
+  width: 45%;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+}
+
+.marvelpng {
+  width: 70%;
+  margin-bottom: 6%;
+  margin-left: 25%;
+}
+
+.dcpng {
+  margin-top: 9%;
+  width: 45%;
+  margin-left: 5%;
 }
