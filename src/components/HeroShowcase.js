@@ -6,22 +6,4 @@ function HeroShowcase() {
   )
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default HeroShowcase;
