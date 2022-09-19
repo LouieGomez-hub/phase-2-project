@@ -74,6 +74,12 @@ html, body, .Home-component {
   background-size: cover;
 }
 
+html, body, .HeroShowcase-component {
+  background-image: url("https://images.hdqwalls.com/wallpapers/marvel-vs-dc-4k-iu.jpg");
+  background-size: cover;
+  background-size: 100%;
+}
+
 .container {
   display: inline-flex;
   width: 500px;
@@ -83,10 +89,13 @@ html, body, .Home-component {
 
 .img-fluid {
   width: 220px;
+  border-radius: 9px 9px 0 0;
 }
 
 .herocards {
   border: 3px solid #7707cc94;
+  border-radius: 10px;
+  margin-bottom: 7px;
 }
 
 .content-name {
@@ -98,14 +107,16 @@ html, body, .Home-component {
 }
 
 .details1 {
-  font-size: 22px;
+  font-size: 25px;
   text-decoration: underline;
-  color: rgba(255, 255, 152, 0.759);
+  color: rgba(255, 255, 152, 0.926);
+  background-color: gray;
 }
 
 .details2 {
   font-size: 27px;
   text-shadow: 1px 8px 8px black;
-  color: silver;
+  color: rgba(255, 255, 255, 0.895);
   font-family: cursive;
+  background-color: rgba(210, 148, 49, 0.633);
 }
