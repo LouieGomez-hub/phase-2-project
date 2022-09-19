@@ -89,17 +89,27 @@ html, body, .HeroShowcase-component {
   width: 220px;
 }
 
+.herocards {
+  border: 3px solid #7707cc94;
+}
+
 .content-name {
-  font-size: 30px;
-  color: silver;
+  font-size: 27.8px;
+  font-family: fantasy;
+  text-shadow: 1px 1px rgb(107, 18, 18);
+  color: black;
+  background-color: rgba(210, 148, 49, 0.633);
 }
 
 .details1 {
   font-size: 22px;
+  text-decoration: underline;
   color: rgba(255, 255, 152, 0.759);
 }
 
 .details2 {
-  font-size: 25px;
+  font-size: 27px;
+  text-shadow: 1px 8px 8px black;
   color: silver;
+  font-family: cursive;
 }

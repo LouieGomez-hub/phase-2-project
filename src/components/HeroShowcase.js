@@ -8,7 +8,7 @@ function HeroShowcase({ heroes }) {
     let { id, name, image, race } = hero
     return (
       <div key={id} className="container">
-        <div className="">
+        <div className="herocards">
           <img className="img-fluid" src={image} alt="" />
           <div className="content-container">
             <div className="content-name">{name}</div>
