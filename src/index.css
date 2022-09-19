@@ -77,3 +77,10 @@ html, body, .Home-component {
 html, body, .HeroShowcase-component {
   color: white;
 }
+
+.container {
+  display: inline-flex;
+  width: 500px;
+  padding-left: 15rem;
+  margin-left: 17px;
+}

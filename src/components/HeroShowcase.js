@@ -7,7 +7,7 @@ function HeroShowcase({ heroes }) {
   display = heroes.map(hero => {
     let { id, name, image, race } = hero
     return (
-      <div key={id} className="col-4">
+      <div key={id} className="container">
         <div className="">
           <img className="img-fluid" src={image} alt="" />
           <div className="content">
