@@ -2,10 +2,10 @@ import React from "react";
 
 function HeroShowcase({ heroes }) {
   let display;
-  console.log(heroes);
 
   display = heroes.map(hero => {
     let { id, name, image, race } = hero
+    
     return (
       <div key={id} className="container">
         <div className="herocards">
