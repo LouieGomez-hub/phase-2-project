@@ -10,11 +10,11 @@ function HeroShowcase({ heroes }) {
       <div key={id} className="container">
         <div className="">
           <img className="img-fluid" src={image} alt="" />
-          <div className="content">
-            <div>{name}</div>
-            <div className="">
-              <div>Race:</div>
-              <div>{race}</div>
+          <div className="content-container">
+            <div className="content-name">{name}</div>
+            <div className="details">
+              <div className="details1">Race:</div>
+              <div className="details2">{race}</div>
             </div>
           </div>
         </div>

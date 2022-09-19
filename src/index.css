@@ -84,3 +84,22 @@ html, body, .HeroShowcase-component {
   padding-left: 15rem;
   margin-left: 17px;
 }
+
+.img-fluid {
+  width: 220px;
+}
+
+.content-name {
+  font-size: 30px;
+  color: silver;
+}
+
+.details1 {
+  font-size: 22px;
+  color: rgba(255, 255, 152, 0.759);
+}
+
+.details2 {
+  font-size: 25px;
+  color: silver;
+}
