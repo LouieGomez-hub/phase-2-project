@@ -73,3 +73,7 @@ html, body, .Home-component {
   background-image: url("https://images.hdqwalls.com/wallpapers/marvel-vs-dc-4k-iu.jpg");
   background-size: cover;
 }
+
+html, body, .HeroShowcase-component {
+  color: white;
+}
