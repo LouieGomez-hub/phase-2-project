@@ -46,7 +46,7 @@
     }, 
     {
       "id": 5,
-      "name": "The Flash (Barry Allen)",
+      "name": "The Flash",
       "gender": "Male",
       "race": "Human",
       "height": "6'0",
@@ -79,7 +79,7 @@
     },
     {
       "id": 8,
-      "name": "Green Lantern (Hal Jordan)",
+      "name": "Green Lantern",
       "gender": "Male",
       "race": "Human",
       "height": "6'2",
