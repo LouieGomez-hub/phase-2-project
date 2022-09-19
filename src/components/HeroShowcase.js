@@ -1,17 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-function HeroShowcase() {
-  const [heroes, setHeroes] = useState('')
-  
-  useEffect(() => {
-    fetch('http://localhost:3000/heroes')
-    .then((res) => res.json())
-    .then((heroes) => 
-      setHeroes(heroes)
-    )
-  }, [])
-
-console.log(heroes)
+function HeroShowcase({ heroes }) {
 
   return (
     <h1>Showcase</h1>
