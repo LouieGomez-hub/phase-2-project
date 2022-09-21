@@ -24,7 +24,7 @@ function App() {
             <HeroShowcase heroes={heroes} />
           </Route>
           <Route exact path="/hero-stats">
-            <HeroStats />
+            <HeroStats heroes={heroes}/>
           </Route>
           <Route exact path="/">
             <Home />

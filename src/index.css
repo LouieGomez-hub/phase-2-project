@@ -120,3 +120,8 @@ html, body, .HeroShowcase-component {
   font-family: cursive;
   background-color: rgba(210, 148, 49, 0.633);
 }
+
+.stats-form {
+  color: white;
+  font-size: 30px;
+}
