@@ -140,6 +140,11 @@ html, body, .HeroShowcase-component {
 th {
   border-bottom: 5px solid rgba(191, 191, 191, 0.255);
   background-color: rgba(210, 148, 49, 0.633);
+  font-family: lucida sans;
+  font-size: 18px;
+  color: whitesmoke;
+  font-style: italic;
+  text-shadow: 1px 1px 7px black;
 }
 
 .table-content {
