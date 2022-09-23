@@ -1,11 +1,26 @@
 import React from "react";
 
-function HeroStats() {
+function HeroStats({ heroes }) {
   return (
-    <div className="stats-form">
-        <label htmlFor="name">Character Name</label>
-        <input id="name" type="text" />
-      </div>
+    <div className="stats-table">
+     <table>
+       <tr className="table-header">
+         <th>Name</th>
+         <th>Primary Skill</th>
+         <th>Gender</th>
+       </tr>
+        {heroes.map(hero => {
+        let { name, primarySkill, gender } = hero
+      return (
+        <tr className="table-content">
+          <td>{name}</td>
+          <td>{primarySkill}</td>
+          <td>{gender}</td>
+        </tr>
+      )
+    })};
+      </table>
+    </div>
   )
 }
 

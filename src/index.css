@@ -121,7 +121,6 @@ html, body, .HeroShowcase-component {
   background-color: rgba(210, 148, 49, 0.633);
 }
 
-.stats-form {
+html, body, .HeroStats-component {
   color: white;
-  font-size: 30px;
 }
