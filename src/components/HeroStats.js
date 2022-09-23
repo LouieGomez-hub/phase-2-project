@@ -9,7 +9,8 @@ function HeroStats({ heroes }) {
          <th>Gender</th>
          <th>Primary Skill</th>
          <th>First Appearance</th>
-         <th>Height/Weight</th>
+         <th>Height</th>
+         <th>Weight</th>
        </tr>
         {heroes.map(hero => {
         let { name, 
@@ -25,7 +26,8 @@ function HeroStats({ heroes }) {
           <td>{gender}</td>
           <td>{primarySkill}</td>
           <td>{firstAppearance}</td>
-          <td>{height} <hr></hr> {weight}</td>
+          <td>{height}</td>
+          <td>{weight}</td>
         </tr>
       )
     })}
