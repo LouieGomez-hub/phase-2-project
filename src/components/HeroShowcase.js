@@ -23,16 +23,9 @@ function HeroShowcase({ heroes }) {
   });
 
   return (
-    <div className="Filter">
-      <select name="filter">
-      <option value="All">Filter by category</option>
-      <option value="Marvel">Marvel</option>
-      <option value="DC">DC</option>
-      </select>
-      <div>
-        {display}
-      </div>  
-    </div>
+    <div>
+      {display}
+    </div> 
   )
 }
 
