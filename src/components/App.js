@@ -23,11 +23,11 @@ function App() {
 
   return (
     <div>
-      <HeroForm onAddHero={handleAddHero}/>
        <NavBar />
        <Switch>
           <Route exact path="/hero-showcase">
             <HeroShowcase heroes={heroes} />
+            <HeroForm onAddHero={handleAddHero}/>
           </Route>
           <Route exact path="/hero-stats">
             <HeroStats heroes={heroes}/>
