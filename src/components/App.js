@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import HeroShowcase from "./HeroShowcase";
 import HeroStats from "./HeroStats";
+import HeroForm from "./HeroForm";
 
 function App() {
   const [heroes, setHeroes] = useState([])
@@ -16,8 +17,13 @@ function App() {
     )
   }, [])
 
+  function handleAddHero(newHero) {
+    setHeroes([...heroes, newHero])
+  }
+
   return (
     <div>
+      <HeroForm onAddHero={handleAddHero}/>
        <NavBar />
        <Switch>
           <Route exact path="/hero-showcase">
