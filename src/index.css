@@ -155,3 +155,21 @@ th {
   text-shadow: 2px 2px 8px purple;
   background-color: rgba(52, 52, 52, 0.8);
 }
+
+.NewHeroBtn {
+  margin-left: 170px;
+  border-style: hidden;
+  background-color: rgba(33, 33, 137, 0.864);
+  width: 109px;
+  height: 25px;
+  font-family: fantasy;
+  font-size: 16.5px;
+  color: rgb(141, 226, 255);
+  text-shadow: 2px 2px 8px darkblue;
+}
+
+.NewHero {
+  width: 170px;
+  height: 44px;
+  border-style: ridge;
+}
