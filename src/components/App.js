@@ -26,8 +26,8 @@ function App() {
        <NavBar />
        <Switch>
           <Route exact path="/hero-showcase">
-            <HeroShowcase heroes={heroes} />
             <HeroForm onAddHero={handleAddHero}/>
+            <HeroShowcase heroes={heroes} />
           </Route>
           <Route exact path="/hero-stats">
             <HeroStats heroes={heroes}/>

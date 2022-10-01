@@ -23,26 +23,24 @@ function HeroForm({onAddHero}) {
   return (
     <form className="NewHero" onSubmit={handleSubmit}>
       <label>
-        Name:
         <input
            type="text"
            name="name"
            value={name}
+           placeholder="Name..."
            onChange={(e) => setName(e.target.value)}
         />
       </label>
-
       <label>
-        Race:
         <input
            type="text"
            name="name"
            value={race}
+           placeholder="Race..."
            onChange={(e) => setRace(e.target.value)}
         />
       </label>
-
-      <button type="submit">Add New Hero</button>
+      <button className="NewHeroBtn" type="submit">Add New Hero</button>
     </form>
   );
 }
