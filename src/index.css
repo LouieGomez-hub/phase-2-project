@@ -93,9 +93,10 @@ html, body, .HeroShowcase-component {
 }
 
 .herocards {
-  border: 3px solid #7707cc94;
+  border: 5px solid #7707cc94;
   border-radius: 10px;
-  margin-bottom: 7px;
+  margin-bottom: 40px;
+  margin-top: -30px;
 }
 
 .content-name {
@@ -157,11 +158,12 @@ th {
 }
 
 .NewHeroBtn {
-  margin-left: 170px;
-  border-style: hidden;
+  margin-top: 3px;
+  margin-left: -4px;
+  border: none;
   background-color: rgba(33, 33, 137, 0.864);
   width: 109px;
-  height: 25px;
+  height: 22px;
   font-family: fantasy;
   font-size: 16.5px;
   color: rgb(141, 226, 255);
@@ -172,4 +174,5 @@ th {
   width: 170px;
   height: 44px;
   border-style: ridge;
+  border-color: #7707cc94;
 }
