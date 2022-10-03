@@ -6,6 +6,10 @@ function HeroForm({onAddHero}) {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    setName("");
+    setRace("");
+
     const heroData = {
         name: name
     }
@@ -21,27 +25,25 @@ function HeroForm({onAddHero}) {
   }
 
   return (
-    <form className="NewHero" onSubmit={handleSubmit}>
-      <label>
+    <div>
+      <form className="NewHero" onSubmit={handleSubmit}>
         <input
-           type="text"
-           name="name"
-           value={name}
-           placeholder="Name..."
-           onChange={(e) => setName(e.target.value)}
+          type="text"
+          name="name"
+          value={name}
+          placeholder="Name..."
+          onChange={(e) => setName(e.target.value)}
         />
-      </label>
-      <label>
         <input
-           type="text"
-           name="name"
-           value={race}
-           placeholder="Race..."
-           onChange={(e) => setRace(e.target.value)}
+          type="text"
+          name="name"
+          value={race}
+          placeholder="Race..."
+          onChange={(e) => setRace(e.target.value)}
         />
-      </label>
-      <button className="NewHeroBtn" type="submit">Add New Hero</button>
-    </form>
+        <button className="NewHeroBtn" type="submit">Add New Hero</button>
+      </form>
+    </div>
   );
 }
 
