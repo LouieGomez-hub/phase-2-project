@@ -129,13 +129,13 @@ html, body, .HeroShowcase-component {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .table {
-  border: 3px solid rgba(34, 139, 34, 0.611);
+  border: 5px solid rgba(34, 139, 34, 0.611);
   width: 2000px;
-  height: 900px;
+  height: 1280px;
 }
 
 th {
@@ -145,15 +145,15 @@ th {
   font-size: 18px;
   color: whitesmoke;
   font-style: italic;
-  text-shadow: 1px 1px 7px black;
+  text-shadow: 2px 2px 7px black;
 }
 
 .table-content {
   text-align: center;
   font-family: cursive;
-  font-size: 16.5px;
+  font-size: 17px;
   color: rgb(141, 226, 255);
-  text-shadow: 2px 2px 8px purple;
+  text-shadow: 1px 2px 2px darkgreen;
   background-color: rgba(52, 52, 52, 0.8);
 }
 
