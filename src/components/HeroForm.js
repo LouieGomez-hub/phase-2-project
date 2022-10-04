@@ -4,7 +4,7 @@ function HeroForm({onAddHero}) {
   const [name, setName] = useState("");
   const [race, setRace] = useState("");
 
-  function handleSubmit(e) {
+  function handleClick(e) {
     e.preventDefault();
 
     setName("");
@@ -42,7 +42,7 @@ function HeroForm({onAddHero}) {
           placeholder="Race..."
           onChange={(e) => setRace(e.target.value)}
         />
-        <button className="NewHeroBtn" type="button" onClick={handleSubmit}>Add New Hero</button>
+        <button className="NewHeroBtn" type="button" onClick={handleClick}>Add New Hero</button>
       </form>
     </div>
   );
