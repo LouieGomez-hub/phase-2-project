@@ -13,6 +13,7 @@ function HeroForm({onAddHero}) {
     const heroData = {
         name: name
     }
+    
     fetch('http://localhost:3000/heroes', {
       method: "POST",
       headers: {
@@ -26,7 +27,7 @@ function HeroForm({onAddHero}) {
 
   return (
     <div>
-      <form className="NewHero" onSubmit={handleSubmit}>
+      <form className="NewHero">
         <input
           type="text"
           name="name"
@@ -41,7 +42,7 @@ function HeroForm({onAddHero}) {
           placeholder="Race..."
           onChange={(e) => setRace(e.target.value)}
         />
-        <button className="NewHeroBtn" type="submit">Add New Hero</button>
+        <button className="NewHeroBtn" type="button" onClick={handleSubmit}>Add New Hero</button>
       </form>
     </div>
   );
