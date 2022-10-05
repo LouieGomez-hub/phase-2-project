@@ -43,30 +43,26 @@ header {
   font-size: 25px;
   color: rgb(255, 255, 152);
   font-weight: bold;
+  text-shadow: -1px 2px 2px rgba(255, 68, 0, 0.805);
 }
 
 p, .Home-component {
   margin-top: 5%;
   text-indent: 2.5%;
-  color: rgba(255, 255, 152, 0.759);
-}
-
-button {
-  border: none;
-  width: 45%;
-  background-color: Transparent;
-  background-repeat:no-repeat;
+  color: rgba(255, 255, 152, 0.873);
+  text-shadow: none;
 }
 
 .marvelpng {
-  width: 70%;
-  margin-bottom: 7%;
-  margin-left: 25%;
+  width: 25%;
+  margin-bottom: 3%;
+  margin-left: 15%;
 }
 
 .dcpng {
-  width: 45%;
-  margin-left: 5%;
+  width: 17%;
+  margin-left: 19%;
+  margin-top: -2%;
 }
 
 html, body, .Home-component {
