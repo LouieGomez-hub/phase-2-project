@@ -4,14 +4,15 @@ function HeroForm({onAddHero}) {
   const [name, setName] = useState("");
   const [race, setRace] = useState("");
 
-  function handleClick(e) {
+  function handleSubmit(e) {
     e.preventDefault();
 
     setName("");
     setRace("");
 
     const heroData = {
-        name: name
+        name: name,
+        race: race
     }
     
     fetch('http://localhost:3000/heroes', {
@@ -27,7 +28,10 @@ function HeroForm({onAddHero}) {
 
   return (
     <div>
-      <form className="NewHero">
+      <form className="NewHero" onSubmit={handleSubmit}>
+        <label className="NewHeroLabel">
+          Add New Hero:
+        </label>
         <input
           type="text"
           name="name"
@@ -42,7 +46,6 @@ function HeroForm({onAddHero}) {
           placeholder="Race..."
           onChange={(e) => setRace(e.target.value)}
         />
-        <button className="NewHeroBtn" type="button" onClick={handleClick}>Add New Hero</button>
       </form>
     </div>
   );
