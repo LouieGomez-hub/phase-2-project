@@ -46,7 +46,7 @@ function HeroForm({onAddHero}) {
           placeholder="Race..."
           onChange={(e) => setRace(e.target.value)}
         />
-        <input className="NewHeroLabel" type="submit" value="Submit" />
+        <input className="SubmitInput" type="submit" value="Submit" />
       </form>
     </div>
   );

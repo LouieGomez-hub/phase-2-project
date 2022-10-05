@@ -168,3 +168,10 @@ th {
   border-color: #7707cc94;
   background-color: rgba(192, 192, 192, 0.538);
 }
+
+.SubmitInput {
+  width: 170px;
+  font-size: 17px;
+  font-family: fantasy;
+  text-shadow: 0px 1px 1px darkred;
+}
