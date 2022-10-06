@@ -109,8 +109,7 @@ function HeroForm({onAddHero}) {
   }
 ```
 
-### Languages Used: 
-* React
+### Languages Used:
 * JSX
 * CSS
 * JSON
