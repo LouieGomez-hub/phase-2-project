@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Superhero Database
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Design:
+This project was created to be a database of some popular superheroes in the universes of both Marvel and DC Comics.
 
-## Available Scripts
+The purpose of this React project is to showcase the use of routes and with my love of comicbook media and superheroes, creating a database seemed like the best way to achieve that purpose. 
 
-In the project directory, you can run:
+With a showcase page to display the different heroes and a page to display some facts about those heroes, this application will serve as a new source of information in the superhero fan landscape.
 
-### `npm start`
+## Features:
+* A navbar at the top of the app to go between each of the three routes: 
+    * Home page
+    * Showcase page
+    * Stats page
+* A display of hero cards on the Showcase page, along with a form for users to add new heroes to the display
+* A table full of facts about each hero on the Stats page such as:
+    * First Comic Appearance and
+    * Primary Skills/Abilities
+among others
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Function: 
+This project uses State and Effect with a fetch request to get the data from the JSON server that is intended to be displayed
+```JSX
+function App() {
+  const [heroes, setHeroes] = useState([])
+  
+  useEffect(() => {
+    fetch('http://localhost:3000/heroes')
+    .then((res) => res.json())
+    .then((data) => 
+      setHeroes(data)
+    )
+  }, [])
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This allows for the fetched data to be passed down to the other components where it needs to be used, such as the HeroShowcase component where the data is passed down in order to be iterated through with the map method to create the hero card displays
+```JSX
+function HeroShowcase({ heroes }) {
+  let display;
 
-### `npm test`
+  display = heroes.map(hero => {
+    let { id, name, image, race } = hero
+    
+    return (
+      <div key={id} className="container">
+        <div className="herocards">
+          <img className="img-fluid" src={image} alt="" />
+          <div className="content-container">
+            <div className="content-name">{name}</div>
+            <div className="details">
+              <div className="details1">Race:</div>
+              <div className="details2">{race}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  });
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The map method is also used in the HeroStats component to display the data for the facts table
+```JSX
+{heroes.map(hero => {
+        let { name, 
+              primarySkill, 
+              gender, 
+              firstAppearance, 
+              height, 
+              weight } = hero
 
-### `npm run build`
+      return (
+        <tr className="table-content">
+          <td>{name}</td>
+          <td>{gender}</td>
+          <td>{primarySkill}</td>
+          <td>{firstAppearance}</td>
+          <td>{height}</td>
+          <td>{weight}</td>
+        </tr>
+      )
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+State is used again in the HeroForm component along with a POST fetch request in order to give the functionality for users to add new heroes to the Showcase page
+```JSX
+function HeroForm({onAddHero}) {
+  const [name, setName] = useState("");
+  const [race, setRace] = useState("");
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  function handleSubmit(e) {
+    e.preventDefault();
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    setName("");
+    setRace("");
 
-### `npm run eject`
+    const heroData = {
+        name: name,
+        race: race
+    }
+    
+    fetch('http://localhost:3000/heroes', {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(heroData),
+    })
+    .then((res) => res.json())
+    .then((newHero) => onAddHero(newHero));
+  }
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Languages Used: 
+* React
+* JSX
+* CSS
+* JSON
